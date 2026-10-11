@@ -1,4 +1,4 @@
-# JUEGO_LAB (V3)
+# Silent Island
 
 Juego de investigación en 2D con vista cenital (top-down), hecho en **Unity**. El jugador es un detective que llega a una isla después de una fuga de la prisión. Uno de los fugitivos se esconde en el pueblo y alguien lo está encubriendo. Durante tres días, el detective interroga a los habitantes de las cuatro casas, anota las pistas y al final acusa al culpable.
 

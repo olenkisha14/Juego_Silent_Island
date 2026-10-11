@@ -2,14 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Yarn.Unity;
 using UnityEngine;
-using Unity.VisualScripting;
-using Yarn;
-using static UnityEditor.PlayerSettings;
-using static UnityEngine.EventSystems.EventTrigger;
-using static UnityEngine.UIElements.UxmlAttributeDescription;
-using System.Runtime.ConstrainedExecution;
-using System;
-using UnityEngine.UIElements;
 
 public class SetDialogue : MonoBehaviour
 {
