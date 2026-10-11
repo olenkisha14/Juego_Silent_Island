@@ -1,4 +1,4 @@
-# JUEGO_LAB (V3)
+﻿# JUEGO_LAB (V3)
 
 Juego de investigación en 2D con vista cenital (top-down), hecho en **Unity**. El jugador es un detective que llega a una isla después de una fuga de la prisión. Uno de los fugitivos se esconde en el pueblo y alguien lo está encubriendo. Durante tres días, el detective interroga a los habitantes de las cuatro casas, anota las pistas y al final acusa al culpable.
 
@@ -55,7 +55,7 @@ Su tarea es interrogar casa por casa, volver después de cada ronda a la mesa de
 
 1. Clona el repositorio:
    ```bash
-   git clone <URL-del-repositorio>
+   git clone https://github.com/olenkisha14/Juego_Silent_Island.git
    ```
 2. En **Unity Hub**, elige **Add → Add project from disk** y selecciona la carpeta clonada.
 3. Abre el proyecto con **Unity 2022.3.58f1**. La primera vez tarda un poco porque se regenera la carpeta `Library/` y se descargan los paquetes.
