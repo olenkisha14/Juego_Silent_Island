@@ -8,9 +8,19 @@ Juego de investigación en 2D con vista cenital (top-down), hecho en **Unity**. 
 
 ## Historia
 
-> *"Hace unos días se reportó una fuga en la prisión de esta isla... Luego descubrimos que se refugió en una de las casas del pueblo. No lo hizo solo. Alguien aquí lo está encubriendo."*
+> *En una noche cubierta de niebla, una fuga masiva sacude la prisión. Los guardias actúan con rapidez y logran capturar a casi todos los reclusos… excepto a uno.*
+>
+> *Ese único prisionero logra escapar por el bosque y desaparecer sin dejar rastro. Las autoridades están seguras de algo: el fugitivo no abandonó la isla. Las miradas apuntan hacia el pequeño pueblo costero. Alguien lo está escondiendo.*
+>
+> *Eres un detective enviado para resolver el misterio. Tienes tres días para interrogar a los cuatro habitantes. Uno de ellos miente.*
+>
+> *El tiempo corre. La isla guarda secretos.*
 
-El detective tiene poco tiempo antes de que el fugitivo intente escapar otra vez. Debe interrogar casa por casa, revisar sus apuntes en la mesa del centro del pueblo y decidir quién es el responsable.
+### Misión del detective
+
+Al llegar a la isla, el detective lo tiene claro: el fugitivo se refugió en una de las cuatro casas del pueblo y no lo hizo solo. Alguien lo está encubriendo, y es probable que intente escapar otra vez en cualquier momento.
+
+Su tarea es interrogar casa por casa, volver después de cada ronda a la mesa del centro del pueblo para revisar sus apuntes y ordenar la información, y descubrir **quién protege al fugitivo** antes de que se acabe el tiempo.
 
 ## Cómo se juega
 
