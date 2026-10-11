@@ -6,15 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MenuInicial.unity
+    path: Assets/Scenes/Cutscent.unity
+    guid: e157beeae0b7691438181012c04bd30d
+  - enabled: 1
+    path: Assets/Scenes/(1)MenuInicial.unity
     guid: 6842211eb0878fa42986553da165e380
   - enabled: 1
-    path: Assets/Scenes/Mapa.unity
+    path: "Assets/Scenes/introducci\xF3n.unity"
+    guid: 5dfa27f0613f4754db9a4caa7800d4ca
+  - enabled: 1
+    path: Assets/Scenes/(2)Mapa.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/Inicio.unity
-    guid: 0adabcd2c82640e4890e21645d38ed94
-  - enabled: 0
-    path: Assets/Scenes/Casa1.unity
+  - enabled: 1
+    path: Assets/Scenes/(3)Casa.unity
     guid: 0082e84b324bff84a8da2caaf98ef90b
+  - enabled: 1
+    path: Assets/Scenes/(4)ElegirCulpable.unity
+    guid: e43512f603068cc4f8d17a148ef94643
+  - enabled: 1
+    path: Assets/Scenes/(5)GanarJuego.unity
+    guid: 2fec7b21f8f331b4e845ac5c2395972c
+  - enabled: 1
+    path: Assets/Scenes/(6)PerderJuego.unity
+    guid: 7330ca39b664c4a4b94b37e111d68d95
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: df910ddeebb94b64ebc469d70e7a7252
+  - enabled: 1
+    path: Assets/Scenes/PasarDias.unity
+    guid: be054fd32406e3e419e6f00eb3d4725b
+  - enabled: 1
+    path: Assets/Scenes/Instrucciones.unity
+    guid: 6891c75d3cd3af641a2218b655d3b59b
   m_configObjects: {}

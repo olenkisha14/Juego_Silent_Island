@@ -1,6 +1,25 @@
 ﻿title: Introduction
 ---
-Mi primer diálogo en YarnSpinner.
-Personaje1: Hola, ¿cómo estás?
-Personaje2: ¡Hola! Estoy bien, gracias. ¿Y tú?
+<<declare $energy = true>>
+Detective: ...
+Detective: Hace unos días se reportó una fuga en la prisión de esta isla.
+Detective: Una de las paredes traseras fue destruida.
+Detective: Justo en la zona que colinda con el bosque.
+Detective: Un grupo de prisioneros intentó escapar por ahí.
+Detective: La mayoría fue recapturada en las primeras horas...
+Detective: ...pero uno logró escabullirse entre los árboles.
+Detective: Se ocultó en el bosque mientras las autoridades intentaban contener la situación.
+Detective: Pasaron los días, la vigilancia disminuyó...
+Detective: Y ese fugitivo desapareció sin dejar rastro.
+Detective: Luego descubrimos que se refugió en una de las casas del pueblo.
+Detective: No lo hizo solo.
+Detective: Alguien aquí lo está encubriendo.
+Detective: Mi tarea es descubrir en cuál casa se esconde...
+Detective: ...y quién es la persona que lo protege.
+Detective: No tengo mucho tiempo.
+Detective: Es probable que intente escapar de nuevo en cualquier momento.
+Detective: Haré interrogatorios, casa por casa.
+Detective: Solo hay cuatro casas, pero debo ser eficiente.
+Detective: Al finalizar cada ronda de preguntas...
+Detective: ...volveré a la mesa del centro para revisar mis apuntes y organizar la información.
 ===

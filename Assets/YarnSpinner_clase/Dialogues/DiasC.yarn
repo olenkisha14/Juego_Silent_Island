@@ -1,0 +1,140 @@
+﻿title: Dia1C_Pregunta1
+---
+Detective: Buen día.
+Pueblerina 3: Detective... he estado esperándolo.
+Detective: ¿Esperándome?
+Pueblerina 3: Claro, esto tiene al pueblo inquieto. Pregunte lo que guste.
+Detective: Arranquemos con esto.
+"Elige una de las siguientes preguntas"
+->Detective: ¿Cómo era su relación con la cárcel? <<if $energy == noEnergy()>>
+    Pueblerina 3: Fui guardia hace años.
+    Pueblerina 3: Me retiré cuando las cosas se pusieron peligrosas.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 0>>
+    <<jump Dia1C_Pregunta2>>
+->Detective: ¿Ha visto algo raro en la casa de algún vecino? <<if $energy == noEnergy()>>
+    Pueblerina 3: A veces veo movimientos a horas extrañas en la casa del Pueblerino 1.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 1>>
+    <<jump Dia1C_Pregunta2>>
+->Detective: ¿Tiene visitas frecuentes? <<if $energy == noEnergy()>>
+    Pueblerina 3: No, vivo sola desde que falleció mi esposo.
+    Pueblerina 3: Prefiero la tranquilidad.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 2>>
+    <<jump Dia1C_Pregunta2>>
+->Detective: Mejor revisar otra casa.
+    Detective: Creo que debería revisar otra casa.
+    <<salirCasa>>
+===
+
+title: Dia1C_Pregunta2
+---
+Detective: También quisiera saber esto.
+
+->Detective: ¿Tiene armas en casa? <<if $energy == noEnergy()>>
+    Pueblerina 3: Solo una escopeta vieja, sin munición. 
+    Pueblerina 3: Está guardada desde hace años.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 3>>
+    Detective: Debería revisar otra casa.
+->Detective: ¿Cree que alguien podría ocultar a un prisionero? <<if $energy == noEnergy()>>
+    Pueblerina 3: Tal vez… algún vecino solitario con corazón blando.
+    Pueblerina 3: Pero no tengo pruebas ni quiero levantar falsos.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 4>>
+    Detective: Debería revisar otra casa.
+->Detective: Visitar otra casa.
+    Detective: Debería revisar otra casa.
+    <<salirCasa>>
+===
+
+title: Dia2C_Pregunta1
+---
+Detective: Necesito más detalles.
+Pueblerina 3: Claro, pregunte lo que quiera.
+Detective: Vamos con esto.
+
+->Detective: ¿Ha notado algo extraño en la actitud de algún vecino últimamente? <<if $energy == noEnergy()>>
+    Pueblerina 3: El Pueblerino 4 ha estado más callado de lo habitual.
+    Pueblerina 3: Aunque puede ser solo el miedo.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 5>>
+    <<jump Dia2C_Pregunta2>>
+->Detective: ¿Aún sospecha de alguien? <<if $energy == noEnergy()>>
+    Pueblerina 3: Sospechar es una palabra fuerte… 
+    Pueblerina 3: ...pero el Pueblerino 2 tiene algo nervioso en la mirada.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 6>>
+    <<jump Dia2C_Pregunta2>>
+->Detective: Terminar interrogatorio.
+    Detective: Eso será todo por ahora.
+    <<salirCasa>>
+===
+
+title: Dia2C_Pregunta2
+---
+Detective: Además, esto más.
+
+->Detective: ¿Vió movimiento inusual? <<if $energy == noEnergy()>>
+    Pueblerina 3: Vi sombras detrás de unas cortinas… 
+    Pueblerina 3: pero no distinguí bien de qué casa era.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 7>>
+    Detective: Debería visitar otra casa.
+->Detective: ¿Ha notado luces a deshoras? <<if $energy == noEnergy()>>
+    Pueblerina 3: Sí. Una linterna encendida a las 3 AM en una casa cercana…
+    Pueblerina 3: No sé si fue por insomnio o algo más.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 8>>
+    Detective: Debería visitar otra casa.
+->Detective: Visitar otra casa.
+    Detective: Debería visitar otra casa.
+    <<salirCasa>>
+===
+
+
+title: Dia3C_Pregunta1
+---
+Detective: Último día, ¿le parece si aclaramos algunas cosas más?
+Pueblerina 3: Por supuesto, estoy a disposición.
+Detective: Vamos con las últimas.
+
+->Detective: ¿Ha escuchado voces extrañas estos días? <<if $energy == noEnergy()>>
+    Pueblerina 3: Anoche escuché una voz que no era de nadie del pueblo.
+    Pueblerina 3: Venía desde la casa de la Pueblerina 4 sin duda.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 9>>
+    <<jump Dia3C_Pregunta2>>
+->Detective: ¿Alguien ha cambiado su rutina desde la fuga? <<if $energy == noEnergy()>>
+    Pueblerina 3: Sí. La Pueblerina 4 ya no sale como antes, 
+    Pueblerina 3: ...evita la plaza y a todos.
+    Pueblerina 3: Antes era más activa, ahora parece esconderse.
+    <<reducirEnergia>>
+    <<unlock_card "NCP3" 10>>
+    <<jump Dia3C_Pregunta2>>
+->Detective: Terminar interrogatorio.
+    Detective: Le agradezco.
+    <<salirCasa>>
+===
+
+title: Dia3C_Pregunta2
+---
+Detective: También esto, antes de irme.
+
+->Detective: ¿Cuál de sus vecinos cree que tiene algo que ocultar? <<if $energy == noEnergy()>>
+    Pueblerina 3: Sin dudarlo, creo que la Pueblerina 4 oculta algo.
+    Pueblerina 3: Está muy aislada y ha evitado todo contacto desde la fuga.
+    <<reducirEnergia>>
+     <<unlock_card "NCP3" 11>>
+    Detective: Iré con otro por ahora.
+->Detective: ¿Ha visto señales de que alguien más viva en alguna casa? <<if $energy == noEnergy()>>
+    Pueblerina 3: En la casa de la Pueblerina 4 vi dos platos servidos en la mesa.
+    Pueblerina 3: Y ella vive sola, hasta donde sé.
+    <<reducirEnergia>>
+     <<unlock_card "NCP3" 12>>
+    Detective: Iré con otro por ahora.
+->Detective: Visitar otra casa.
+    Detective: Iré con otro por ahora.
+    <<salirCasa>>
+===

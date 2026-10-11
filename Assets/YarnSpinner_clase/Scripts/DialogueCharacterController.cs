@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 namespace YarnSpinner_clase.Scripts
@@ -15,6 +16,7 @@ namespace YarnSpinner_clase.Scripts
         [SerializeField] private DialogueCharacterData data;
         [SerializeField] private Color activeColor = Color.white;
         [SerializeField] private Color inactiveColor = Color.white;
+        int energyValue;
 
         private SpriteRenderer _renderer;
         
@@ -54,5 +56,38 @@ namespace YarnSpinner_clase.Scripts
         {
             _renderer.color = active ? activeColor : inactiveColor;
         }
+
+        [YarnCommand("reducirEnergia")]
+        public static void ReducirEnergia()
+        {
+            MenuInicial.Energy = MenuInicial.Energy - 1;
+            Debug.Log("Energía reducida desde nodo de diálogo");
+        }
+
+        [YarnCommand("salirCasa")]
+        public static void SalirCasa()
+        {
+            if (MenuInicial.Energy == 0)
+            {
+                //playcinematic
+            }
+            SceneManager.LoadScene("(2)Mapa");
+        }
+
+        
+        [YarnFunction("noEnergy")]
+        public static bool NoEnergy()
+        {
+            if (MenuInicial.Energy == 0)
+            {
+                return false;
+            }
+            if (MenuInicial.Energy >= 1) 
+            { 
+                return true; 
+            }
+            return true;
+        }
+        
     }
 }

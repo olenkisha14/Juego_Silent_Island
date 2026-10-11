@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8231caa7cc5494eaddd815811071fa, type: 3}
+  m_Name: NCP4_Post Dialogue Data
+  m_EditorClassIdentifier: 
+  postDialogueData:
+  - Dice que estaba leyendo toda la noche durante la fuga
+  - Dice tener un primo en la carcel, pero no hablan
+  - "Escuch\xF3 pasos cerca del bosque."
+  - Dice que vive sola y no ha tenido visitas.
+  - "Su gato se escondi\xF3 toda la noche."
+  - "Dice que la manta del s\xF3tano es para goteras."
+  - "Asegura que movi\xF3 las cajas sin darse cuenta."
+  - Justifica ruidos diciendo que camina por insomnio.
+  - "Dice que cocina de m\xE1s por costumbre."
+  - Dice que vio al Pueblerino 1 salir tarde con una bolsa grande
+  - Se queja de que el Pueblerino 2 la interroga constantemente.
+  - "Justifica la manta extra porque duerme en el sof\xE1."
+  - Vio movimientos cerca del bosque, piensa que fue un animal.
