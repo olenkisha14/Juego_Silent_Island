@@ -132,4 +132,8 @@ Todos los derechos de estos recursos pertenecen a sus autores.
 
 ## Autores
 
-Proyecto desarrollado por estudiantes de la **UPC**, curso de desarrollo de videojuegos en Unity (2025).
+Proyecto desarrollado por estudiantes de la **UPC**, taller de desarrollo de videojuegos en Unity (2025).
+
+## Demo
+
+- **Video demo del juego**: ([video demo](https://www.youtube.com/watch?v=1VNmewZFOFA&t=5s)).
